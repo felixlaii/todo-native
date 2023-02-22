@@ -105,5 +105,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     backgroundColor: "#FFF",
     borderColor: "#C0C0C0",
+    borderRadius: 60,
   },
 });
