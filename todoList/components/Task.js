@@ -36,4 +36,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginRight: 15,
   },
+  itemText: {
+    maxWidth: "80%",
+  },
 });
