@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   const [task, setTask] = useState();
@@ -16,15 +16,19 @@ export default function App() {
     itemsCopy.splice(index, 1);
     setTaskItems(itemsCopy);
   };
+
   return (
     <View style={styles.container}>
-      {/* Today's Tasks */}
-      <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Today's Tasks</Text>
-        <View style={styles.items}>
-          {/* This is where the tasks will go! */}
+      {/* Added this scroll view to enable scrolling when list gets longer than the page */}
+      <ScrollView>
+        {/* Today's Tasks */}
+        <View style={styles.tasksWrapper}>
+          <Text style={styles.sectionTitle}>Today's Tasks</Text>
+          <View style={styles.items}>
+            {/* This is where the tasks will go! */}
+          </View>
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 }
