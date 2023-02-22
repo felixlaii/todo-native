@@ -103,5 +103,7 @@ const styles = StyleSheet.create({
   input: {
     paddingVertical: 15,
     paddingHorizontal: 15,
+    backgroundColor: "#FFF",
+    borderColor: "#C0C0C0",
   },
 });
