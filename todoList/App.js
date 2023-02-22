@@ -1,7 +1,9 @@
-import { StatusBar } from "expo-status-bar";
+import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
+  const [task, setTask] = useState();
+  const [taskItems, setTaskItems] = useState([]);
   return (
     <View style={styles.container}>
       {/* Today's Tasks */}
