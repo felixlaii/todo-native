@@ -37,7 +37,7 @@ export default function App() {
                   key={index}
                   onPress={() => completeTask(index)}
                 >
-                  <Task />
+                  <Task text={item} />
                 </TouchableOpacity>
               );
             })}
