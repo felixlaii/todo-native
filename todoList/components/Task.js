@@ -12,3 +12,9 @@ export const Task = (props) => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  item: {
+    backgroundColor: "#FFF",
+  },
+});
