@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { Task } from "./components/Task";
 
 export default function App() {
   const [task, setTask] = useState();
