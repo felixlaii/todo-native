@@ -109,4 +109,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     width: 250,
   },
+  addWrapper: {
+    width: 60,
+    height: 60,
+  },
 });
