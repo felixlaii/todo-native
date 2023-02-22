@@ -4,6 +4,12 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
+
+  const handleAddTask = () => {
+    Keyboard.dismiss();
+    setTaskItems([...taskItems, task]);
+    setTask(null);
+  };
   return (
     <View style={styles.container}>
       {/* Today's Tasks */}
