@@ -32,5 +32,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#55BCF6",
     width: 24,
     height: 24,
+    opacity: 0.4,
+    borderRadius: 5,
+    marginRight: 15,
   },
 });
