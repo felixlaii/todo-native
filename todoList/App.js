@@ -85,4 +85,8 @@ const styles = StyleSheet.create({
     paddingTop: 80,
     paddingHorizontal: 20,
   },
+  sectionTitle: {
+    fontSize: 24,
+    fontWeight: "bold",
+  },
 });
