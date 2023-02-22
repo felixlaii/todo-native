@@ -31,6 +31,13 @@ export default function App() {
           <Text style={styles.sectionTitle}>Today's Tasks</Text>
           <View style={styles.items}>
             {/* This is where the tasks will go! */}
+            {taskItems.map((item, index) => {
+              return (
+                <TouchableOpacity>
+                  <Task />
+                </TouchableOpacity>
+              );
+            })}
           </View>
         </View>
       </ScrollView>
