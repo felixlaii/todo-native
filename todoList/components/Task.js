@@ -16,5 +16,7 @@ export const Task = (props) => {
 const styles = StyleSheet.create({
   item: {
     backgroundColor: "#FFF",
+    padding: 15,
+    marginBottom: 20,
   },
 });
