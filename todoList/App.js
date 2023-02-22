@@ -58,7 +58,7 @@ export default function App() {
           onChangeText={(text) => setTask(text)}
         />
         <TouchableOpacity onPress={() => handleAddTask()}>
-          <View>
+          <View style={styles.addWrapper}>
             <Text></Text>
           </View>
         </TouchableOpacity>
