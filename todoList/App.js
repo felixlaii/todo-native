@@ -45,6 +45,8 @@ export default function App() {
           </View>
         </View>
       </ScrollView>
+      {/* Write a task */}
+      {/* Uses a keyboard avoiding view which ensures the keyboard does not cover the items on screen */}
     </View>
   );
 }
