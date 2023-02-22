@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   square: {
+    backgroundColor: "#55BCF6",
     width: 24,
     height: 24,
   },
