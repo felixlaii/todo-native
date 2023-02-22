@@ -100,4 +100,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
   },
+  input: {
+    paddingVertical: 15,
+    paddingHorizontal: 15,
+  },
 });
