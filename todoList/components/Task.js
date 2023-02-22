@@ -6,6 +6,7 @@ export const Task = (props) => {
     <View style={styles.item}>
       <View style={styles.itemLeft}>
         <View style={styles.square}></View>
+        <Text style={styles.itemText}>{props.text}</Text>
       </View>
     </View>
   );
