@@ -5,7 +5,7 @@ export const Task = (props) => {
   return (
     <View style={styles.item}>
       <View style={styles.itemLeft}>
-        <View></View>
+        <View style={styles.square}></View>
       </View>
     </View>
   );
