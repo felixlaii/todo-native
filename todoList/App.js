@@ -112,5 +112,7 @@ const styles = StyleSheet.create({
   addWrapper: {
     width: 60,
     height: 60,
+    backgroundColor: "#FFF",
+    borderColor: "#C0C0C0",
   },
 });
