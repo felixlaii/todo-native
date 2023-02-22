@@ -116,5 +116,6 @@ const styles = StyleSheet.create({
     borderColor: "#C0C0C0",
     borderRadius: 60,
     borderWidth: 1,
+    alignItems: "center",
   },
 });
