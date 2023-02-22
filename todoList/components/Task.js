@@ -42,5 +42,6 @@ const styles = StyleSheet.create({
   circular: {
     width: 12,
     height: 12,
+    borderWidth: 2,
   },
 });
